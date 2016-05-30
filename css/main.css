@@ -186,3 +186,46 @@ a.button:hover {
     letter-spacing: 0.1px;
     font-size: 14px;
 }
+
+@media (max-width: 615px) {
+	.searchBox input {
+		width: 75%;
+	}
+}
+
+@media (max-width: 429px) {
+	.topNav li {
+		font-size: 10px;
+	} 
+}
+
+@media (max-width: 380px) {
+	.shareButton,
+	.profileImg {
+		display: none;	
+	}
+}
+
+@media (max-width: 525px) {
+	.left li a, 
+	.right li a {
+		font-size: 10px;
+	}
+}
+
+@media (max-width: 445px) {
+	.bottomLinks {
+		display: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
